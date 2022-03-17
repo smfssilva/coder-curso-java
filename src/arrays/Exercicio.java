@@ -25,5 +25,10 @@ public class Exercicio {
     }
     System.out.printf("%.2f\n", (total/notasAlunoB.length));
 
+    double[] notas = {9.9,8.7,7.2,9.4};
+    for (double nota : notas ) {
+      System.out.print(nota + ", ");
+    }
+
   }
 }
